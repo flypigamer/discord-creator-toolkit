@@ -18,6 +18,7 @@ generateButton.addEventListener("click", () => {
   result.innerHTML = `
     <p>Your Discord Timestamp:</p>
     <code>${timestamp}</code>
+    <br><br>
     <button id="copyTimestamp">Copy</button>
   `;
 
