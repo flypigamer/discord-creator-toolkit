@@ -26,9 +26,22 @@
     <section class="tools">
 
       <div class="tool-card">
-        <h3>🕐 Timestamp Generator</h3>
-        <p>Create Discord timestamps easily.</p>
-        <button>Open Tool</button>
+  <h3>🕐 Timestamp Generator</h3>
+  <p>Create Discord timestamps easily.</p>
+
+  <input type="datetime-local" id="dateTime">
+
+  <select id="timestampFormat">
+    <option value="F">Full Date & Time</option>
+    <option value="f">Short Date & Time</option>
+    <option value="R">Relative Time</option>
+    <option value="D">Date Only</option>
+    <option value="T">Time Only</option>
+  </select>
+
+  <button id="generateTimestamp">Generate</button>
+
+  <div id="timestampResult"></div>
       </div>
 
       <div class="tool-card">
